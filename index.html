@@ -11,41 +11,52 @@
 
     <a-scene>
 
+        <!-- Caixa -->
         <a-box
-            position="-1 0.5 -3"
-            rotation="0 45 0"
+            position="-3 1 -6"
+            rotation="25 60 15"
+            width="2"
+            height="2"
+            depth="2"
             color="#FF5733">
         </a-box>
 
+        <!-- Esfera -->
         <a-sphere
-            position="0 1.25 -5"
-            radius="1.25"
+            position="3 2.5 -8"
+            radius="1.5"
             color="#9B59B6">
         </a-sphere>
 
+        <!-- Cilindro -->
         <a-cylinder
-            position="1 0.75 -3"
-            radius="0.5"
-            height="1.5"
-            color="#FFC65D">
+            position="0 1.5 -5"
+            radius="0.8"
+            height="3"
+            rotation="0 0 20"
+            color="#F1C40F">
         </a-cylinder>
 
+        <!-- Chão -->
         <a-plane
-            position="0 0 -4"
+            position="0 0 -6"
             rotation="-90 0 0"
-            width="4"
-            height="4"
-            color="#7BC8A4">
+            width="10"
+            height="10"
+            color="#3498DB">
         </a-plane>
 
+        <!-- Texto -->
         <a-text
             value="Ola, Patricia!"
-            position="-1 2.8 -4"
-            color="#FFFFFF"
-            width="6">
+            position="-3 4 -6"
+            rotation="0 20 0"
+            color="#2ECC71"
+            width="8">
         </a-text>
 
-        <a-sky color="#222222"></a-sky>
+        <!-- Céu -->
+        <a-sky color="#1A1A2E"></a-sky>
 
     </a-scene>
 
