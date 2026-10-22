@@ -27,13 +27,11 @@
       <!-- latitude + 0.0001 fica cerca de 11 m para norte da câmara -->
       <!-- scale 6: a 11 m de distância, o texto fica com um tamanho que cabe no ecrã -->
       <!-- align center: o texto fica centrado no ponto, em vez de começar nele e sair do ecrã pela direita -->
-      <a-text
-        value="Ola Mundo!"
-        scale="6 6 6"
-        align="center"
-        color="#ff0000"
-        gps-entity-place="latitude: 51.0491; longitude: -0.723;"
-      ></a-text>
+      <a-box
+      color="blue"
+      scale="3 3 3"
+      gps-entity-place="latitude: 51.0491; longitude: -0.723;">
+      </a-box>
     </a-scene>
   </body>
 </html>
